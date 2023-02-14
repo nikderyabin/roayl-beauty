@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+body{
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+}
+.header_logo{
+    color: bisque;
+    text-indent: 13px;
+    font-family:'Segoe UI', Tahoma, Verdana, monospace;
+}
+.header_logo:hover{
+    color: rgb(247, 9, 175);
+    cursor: pointer;
+    transition: 2s;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header_links{
+    text-decoration: none;
+}
+.nav-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 15px;
+}
+.nav_links{
+    font-size: 16px;
+    list-style: none;
+    text-decoration: none;
+    color:bisque;
+    margin-right: 15px;
+}
+.nav_links:hover{
+    color: rgb(247, 9, 175);
+}
+.header_slogan-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(/assets/image/background_pictures.jpeg);
+    width: auto;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+.header_slogan{
+    text-align: left;
+    margin-right: 5px;
+    color:bisque;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, italic;
+    font-size: 30px;
+}
+.header_slogan:hover{
+    color: rgb(253, 0, 241);
+    background-color: black;
+    border-bottom: solid rgb(253, 0, 241);
+    transition-duration: 2s;
+    cursor: default;
+}
+.about_title{
+    font-size: 25px;
+    margin-top: 12px;
+    color: bisque;
+    text-align: center;
+}
+.about_title:hover{
+    color: black;
+    cursor: default;
+}
+.about_us-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+.about_text{
+    font-size: 19px;
+    color: bisque;
+    text-indent: 12px;
+    text-align: center;
+}
+.contacts-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.contacts_title{
+    font-size: 25px;
+    color: bisque;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contacts_title:hover{
+    color: black;
+    cursor: default;
+}
+.contacts_list{
+    font-size: 19px;
+    list-style: none;
+    color: bisque;
+    margin-bottom: 30px;
+}
+.contacts_list:hover{
+    border-left: solid rgb(253, 0, 241) 4px;
+    cursor:default;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.footer_text{
+    font-size: 16px;
+    margin-top: 10px;
+    color: bisque;
+    margin-bottom: 10px;
+}
